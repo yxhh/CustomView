@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--UIUrlTextView-->
+    <declare-styleable name="UIUrlTextView">
+        <attr name="autoLink" format="enum">
+            <enum name="web" value="0" />
+        </attr>
+        <attr name="isLinkUnderline" format="boolean" />
+        <attr name="linkTextColor" format="color" />
+    </declare-styleable>
+</resources>

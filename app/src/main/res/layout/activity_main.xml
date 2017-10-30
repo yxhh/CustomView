@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center">
+
+    <com.ruolian.yw.coustomview.UIUrlTextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="这是我的博客:https://github.com/yxhh,欢迎光临!"
+        android:textSize="20sp"
+        app:autoLink="web"
+        app:isLinkUnderline="true"
+        app:linkTextColor="#00f"
+        tools:ignore="InvalidId" />
+</LinearLayout>
