@@ -13,6 +13,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
 
+import com.ruolian.yw.R;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

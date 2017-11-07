@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
-    android:gravity="center">
+    android:orientation="vertical">
 
     <com.ruolian.yw.coustomview.UIUrlTextView
         android:id="@+id/textview"
@@ -18,4 +18,10 @@
         app:isLinkUnderline="true"
         app:linkTextColor="#00f"
         tools:ignore="InvalidId" />
+
+    <com.ruolian.yw.coustomview.FinaceProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isShowPercanage="true"
+        app:uiProgress="55" />
 </LinearLayout>

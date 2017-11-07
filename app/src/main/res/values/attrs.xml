@@ -8,4 +8,12 @@
         <attr name="isLinkUnderline" format="boolean" />
         <attr name="linkTextColor" format="color" />
     </declare-styleable>
+
+
+    <declare-styleable name="FinaceProgressBar">
+        <attr name="uiPercantageIcon" format="reference" />
+        <attr name="uiProgress" format="integer" />
+        <attr name="uiDotResources" format="reference" />
+        <attr name="isShowPercanage" format="boolean" />
+    </declare-styleable>
 </resources>

@@ -3,7 +3,7 @@ package com.ruolian.yw
 import android.app.Activity
 import android.os.Bundle
 import android.widget.Toast
-import com.ruolian.yw.coustomview.R.layout.activity_main
+import com.ruolian.yw.R.layout.activity_main
 import com.ruolian.yw.coustomview.UIUrlTextView
 import kotlinx.android.synthetic.main.activity_main.*
 
