@@ -16,4 +16,9 @@
         <attr name="uiDotResources" format="reference" />
         <attr name="isShowPercanage" format="boolean" />
     </declare-styleable>
+    <!--折线图-->
+    <declare-styleable name="LineChart">
+        <attr name="lineColor" format="color" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
 </resources>

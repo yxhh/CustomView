@@ -40,4 +40,12 @@
         android:layout_height="200dp"
         android:layout_marginTop="0dp" />
 
+    <com.ruolian.yw.coustomview.chart.LineChart
+        android:id="@+id/line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        app:lineColor="#3aa7ff"
+        app:textColor="#ffffff" />
+
 </LinearLayout>
