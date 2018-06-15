@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="这是我的博客:https://github.com/yxhh,欢迎光临!"
+        android:textColor="#ffee00"
         android:textSize="20sp"
         app:autoLink="web"
         app:isLinkUnderline="true"
@@ -24,4 +25,19 @@
         android:layout_height="wrap_content"
         app:isShowPercanage="true"
         app:uiProgress="55" />
+
+    <Button
+        android:id="@+id/btn_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="设置数据" />
+
+    <com.ruolian.yw.coustomview.chart.CircleChart
+        android:id="@+id/circle_chart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="0dp" />
+
 </LinearLayout>
