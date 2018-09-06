@@ -1,51 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#fff"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <com.ruolian.yw.coustomview.UIUrlTextView
-        android:id="@+id/textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="这是我的博客:https://github.com/yxhh,欢迎光临!"
-        android:textColor="#ffee00"
-        android:textSize="20sp"
-        app:autoLink="web"
-        app:isLinkUnderline="true"
-        app:linkTextColor="#00f"
-        tools:ignore="InvalidId" />
-
-    <com.ruolian.yw.coustomview.FinaceProgressBar
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:isShowPercanage="true"
-        app:uiProgress="55" />
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_circle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        android:text="设置数据" />
+        <com.ruolian.yw.coustomview.UIUrlTextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="这是我的博客:https://github.com/yxhh,欢迎光临!"
+            android:textColor="#ffee00"
+            android:textSize="20sp"
+            app:autoLink="web"
+            app:isLinkUnderline="true"
+            app:linkTextColor="#00f"
+            tools:ignore="InvalidId" />
 
-    <com.ruolian.yw.coustomview.chart.CircleChart
-        android:id="@+id/circle_chart"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="0dp" />
+        <com.ruolian.yw.coustomview.FinaceProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:isShowPercanage="true"
+            app:uiProgress="55" />
 
-    <com.ruolian.yw.coustomview.chart.LineChart
-        android:id="@+id/line_chart"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="5dp"
-        app:lineColor="#3aa7ff"
-        app:textColor="#ffffff" />
+        <Button
+            android:id="@+id/btn_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="设置数据" />
 
-</LinearLayout>
+        <com.ruolian.yw.coustomview.chart.CircleChart
+            android:id="@+id/circle_chart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="0dp" />
+
+        <com.ruolian.yw.coustomview.chart.LineChart
+            android:id="@+id/line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            app:lineColor="#3aa7ff"
+            app:textColor="#ffffff" />
+
+    </LinearLayout>
+</ScrollView>

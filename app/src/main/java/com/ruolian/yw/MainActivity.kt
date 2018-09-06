@@ -44,15 +44,15 @@ class MainActivity : Activity() {
 
 
         lineDatas = ArrayList<LineChartData>()
-        lineDatas.add(LineChartData(2010, 5000))
-        lineDatas.add(LineChartData(2011, 8000))
-        lineDatas.add(LineChartData(2012, 6000))
-        lineDatas.add(LineChartData(2013, 12000))
-        lineDatas.add(LineChartData(2014, 19000))
-        lineDatas.add(LineChartData(2015, 20000))
-        lineDatas.add(LineChartData(2016, 21000))
-        lineDatas.add(LineChartData(2017, 22000))
-        lineDatas.add(LineChartData(2018, 30000))
+        lineDatas.add(LineChartData(2010.toString(), 5))
+        lineDatas.add(LineChartData(2011.toString(), 8))
+        lineDatas.add(LineChartData(2012.toString(), 6))
+        lineDatas.add(LineChartData(2013.toString(), 12))
+        lineDatas.add(LineChartData(2014.toString(), 19))
+        lineDatas.add(LineChartData(2015.toString(), 20))
+        lineDatas.add(LineChartData(2016.toString(), 21))
+        lineDatas.add(LineChartData(2017.toString(), 22))
+        lineDatas.add(LineChartData(2018.toString(), 30))
 
     }
 
@@ -66,7 +66,7 @@ class MainActivity : Activity() {
             override fun onClick(v: View?) {
                 circle_chart.setDatas(circleDatas)
 
-                line_chart.setLineData(lineDatas)
+                line_chart.setLineData(lineDatas, LineChart.LineChartEnum.SALARY)
             }
         })
         line_chart.setOnTouchChartListener(object : LineChart.OnTouchChartListener {

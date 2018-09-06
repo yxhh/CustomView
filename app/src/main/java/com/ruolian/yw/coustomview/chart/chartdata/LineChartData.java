@@ -9,8 +9,8 @@ package com.ruolian.yw.coustomview.chart.chartdata;
  */
 public class LineChartData {
     public int salary;
-    public int year;
-    public LineChartData(int year, int salary) {
+    public String year;
+    public LineChartData(String year, int salary) {
         this.year = year;
         this.salary = salary;
     }

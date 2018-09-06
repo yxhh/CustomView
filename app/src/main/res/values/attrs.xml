@@ -19,6 +19,9 @@
     <!--折线图-->
     <declare-styleable name="LineChart">
         <attr name="lineColor" format="color" />
+        <attr name="shadowColor" format="color" />
         <attr name="textColor" format="color" />
+        <attr name="textBackground" format="reference" />
+        <attr name="iseBezierCurve" format="boolean" />
     </declare-styleable>
 </resources>
